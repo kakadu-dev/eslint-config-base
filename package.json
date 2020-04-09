@@ -1,6 +1,6 @@
 {
     "name": "@kakadu-dev/eslint-config-base",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
     },
@@ -25,11 +25,13 @@
         "url": "https://github.com/kakadu-dev/eslint-config-base/issues"
     },
     "homepage": "https://github.com/kakadu-dev/eslint-config-base#readme",
-    "peerDependencies": {
-        "eslint": "^6.8.0",
+    "devDependencies": {
         "eslint-config-airbnb": "^18.0.1",
         "eslint-config-prettier": "^6.7.0",
         "eslint-plugin-import": "^2.17.2",
         "eslint-plugin-prettier": "^3.1.1"
+    },
+    "peerDependencies": {
+        "eslint": "^6.8.0"
     }
 }
